@@ -5,6 +5,11 @@ numb_zero = str(number)
 numb_zero = str(numb_zero.count('0'))
 print(numb_zero)
 
+number = 100023000000
+new_number = str(number).rstrip("0")
+result = len(str(number)) - len(new_number)
+print(result)
+
 ######### 2 #########
 
 number = 5076070000
